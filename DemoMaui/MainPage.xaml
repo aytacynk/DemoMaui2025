@@ -9,4 +9,23 @@
 
     </StackLayout>-->
 
+    <!--<Grid>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        <BoxView Grid.Row="0" Grid.Column="0" BackgroundColor="Red"  />
+        <BoxView Grid.Row="0" Grid.Column="1" BackgroundColor="Blue" />
+        <BoxView Grid.Row="1" Grid.Column="0" BackgroundColor="Green" />
+        <BoxView Grid.Row="1" Grid.Column="1" BackgroundColor="Aqua" />
+
+    </Grid>-->
+    
 </ContentPage>
