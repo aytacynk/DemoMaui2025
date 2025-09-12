@@ -27,5 +27,21 @@
         <BoxView Grid.Row="1" Grid.Column="1" BackgroundColor="Aqua" />
 
     </Grid>-->
-    
+
+    <!--<FlexLayout Direction="Row" Wrap="Wrap" JustifyContent="Center">
+        <BoxView WidthRequest="100" HeightRequest="100" BackgroundColor="Red"></BoxView>
+        <BoxView WidthRequest="100" HeightRequest="100" BackgroundColor="Yellow"></BoxView>
+        <BoxView WidthRequest="100" HeightRequest="100" BackgroundColor="Red"></BoxView>
+        <BoxView WidthRequest="100" HeightRequest="100" BackgroundColor="Yellow"></BoxView>
+        <BoxView WidthRequest="100" HeightRequest="100" BackgroundColor="Red"></BoxView>
+        <BoxView WidthRequest="100" HeightRequest="100" BackgroundColor="Yellow"></BoxView>
+        <BoxView WidthRequest="100" HeightRequest="100" BackgroundColor="Red"></BoxView>
+        <BoxView WidthRequest="100" HeightRequest="100" BackgroundColor="Yellow"></BoxView>
+        <BoxView WidthRequest="100" HeightRequest="100" BackgroundColor="Red"></BoxView>
+        <BoxView WidthRequest="100" HeightRequest="100" BackgroundColor="Yellow"></BoxView>
+        <BoxView WidthRequest="100" HeightRequest="100" BackgroundColor="Red"></BoxView>
+        <BoxView WidthRequest="100" HeightRequest="100" BackgroundColor="Yellow"></BoxView>
+
+    </FlexLayout>-->
+
 </ContentPage>
