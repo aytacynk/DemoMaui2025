@@ -45,5 +45,5 @@
     </FlexLayout>-->
 
 
-    <Label Text="Hello World!"/>
+    <Label Text="Hello World!" TextColor="Red" FontSize="30" FontAttributes="Bold" BackgroundColor="Green" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" VerticalOptions="Center"/>
 </ContentPage>
