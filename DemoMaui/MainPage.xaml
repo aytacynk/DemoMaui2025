@@ -68,7 +68,13 @@
 
     <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
 
-        <Button Text="Click Me!" Clicked="Button_Clicked"/>
+        <Button Text="Click Me!" 
+                Clicked="Button_Clicked" 
+                Background="Black" 
+                FontSize="50"
+                TextColor="Red"
+                Padding="30"
+                ImageSource="dotnet_bot.png"/>
     </StackLayout>
 
 </ContentPage>
