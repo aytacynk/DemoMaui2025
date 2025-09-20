@@ -43,9 +43,9 @@
         <BoxView WidthRequest="100" HeightRequest="100" BackgroundColor="Yellow"></BoxView>
 
     </FlexLayout>-->
+    <VerticalStackLayout VerticalOptions="Center">
 
-
-    <Label Text="Hello World! Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." 
+        <Label Text="Hello World! Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." 
            TextColor="Red" 
            MaxLines="5"
            FontSize="30"
@@ -55,6 +55,14 @@
            VerticalTextAlignment="Center"
            HorizontalOptions="Center"
            VerticalOptions="Center"/>
-    
-    
+
+        <Label Text="Click!" HorizontalOptions="Center" FontSize="60" Background="#FF3200" TextColor="White" Padding="10">
+            <Label.GestureRecognizers><!--Hareket tanımlama işlemidir(izleme/dokunma)-->
+                <TapGestureRecognizer Tapped="Click_Tapped"/>
+            </Label.GestureRecognizers>
+        </Label>
+        
+    </VerticalStackLayout>
+
+
 </ContentPage>

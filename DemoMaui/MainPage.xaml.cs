@@ -20,6 +20,11 @@
 
             //SemanticScreenReader.Announce(CounterBtn.Text);
         }
+
+        private void Click_Tapped(object sender, TappedEventArgs e)
+        {
+
+        }
     }
 
 }
