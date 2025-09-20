@@ -24,7 +24,12 @@
         private void Click_Tapped(object sender, TappedEventArgs e)
         {
             //DisplayAlert("Tıklandı", "Label üstüne tıkladınız", "OK");
-            btnLorem.Text = "Butona Tıklandı";
+           // btnLorem.Text = "Butona Tıklandı";
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Butona Tıklandı", "Tıklama Başarılı", "Klar");
         }
     }
 
