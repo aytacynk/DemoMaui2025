@@ -44,4 +44,6 @@
 
     </FlexLayout>-->
 
+
+    <Label Text="Hello World!"/>
 </ContentPage>
