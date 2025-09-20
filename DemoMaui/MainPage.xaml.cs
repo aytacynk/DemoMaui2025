@@ -23,7 +23,7 @@
 
         private void Click_Tapped(object sender, TappedEventArgs e)
         {
-            DisplayAlert("Tıklandı", "Label üstüne tıkladınız", "OK");
+            //DisplayAlert("Tıklandı", "Label üstüne tıkladınız", "OK");
         }
     }
 
