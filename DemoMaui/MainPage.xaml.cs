@@ -29,7 +29,7 @@
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            DisplayAlert("Butona Tıklandı", "Tıklama Başarılı", "Klar");
+            //DisplayAlert("Butona Tıklandı", "Tıklama Başarılı", "Klar");
         }
     }
 

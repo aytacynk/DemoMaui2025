@@ -66,7 +66,7 @@
         
     </VerticalStackLayout>-->
 
-    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+    <!--<StackLayout VerticalOptions="Center" HorizontalOptions="Center">
 
         <Button Text="Click Me!" 
                 Clicked="Button_Clicked" 
@@ -75,6 +75,10 @@
                 TextColor="Red"
                 Padding="30"
                 ImageSource="dotnet_bot.png"/>
-    </StackLayout>
-
+    </StackLayout>-->
+    <Image Source="avatar.jpg" 
+            HorizontalOptions="Center" 
+             VerticalOptions="Center"
+             Aspect="AspectFill"
+              Opacity="0.4"/>
 </ContentPage>
