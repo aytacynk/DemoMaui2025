@@ -57,14 +57,18 @@
            VerticalOptions="Center"/>
 
         <Label Text="Click!" HorizontalOptions="Center" FontSize="60" Background="#FF3200" TextColor="White" Padding="10">
-            <Label.GestureRecognizers>--><!--Hareket tanımlama işlemidir(izleme/dokunma)--><!--
+            <Label.GestureRecognizers>-->
+    <!--Hareket tanımlama işlemidir(izleme/dokunma)-->
+    <!--
                 <TapGestureRecognizer Tapped="Click_Tapped"/>
             </Label.GestureRecognizers>
         </Label>
         
     </VerticalStackLayout>-->
 
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
 
-    <Button Text="Click Me!" Clicked="Button_Clicked"/>
+        <Button Text="Click Me!" Clicked="Button_Clicked"/>
+    </StackLayout>
 
 </ContentPage>
